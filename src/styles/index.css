@@ -1,12 +1,44 @@
+.container {
+    display: flex;
+    margin-top: 1em;
 
-/* 
+}
+.rectangle{
+    background-color: black;
+    padding: 20px;
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.red, .green, .yellow {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
 
-*/
+.red {
+    background: red;
+}
+
+.green {
+    background: green;
+    margin-top: 20px;
+}
+
+.yellow {
+    background: yellow;
+    margin-top: 20px;
+}
+
+.stick {
+    background-color: black;
+    width: 3%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.light{
+    box-shadow: 0 0 15px  white;
+}
